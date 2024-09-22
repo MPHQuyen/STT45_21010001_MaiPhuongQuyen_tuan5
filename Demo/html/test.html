@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" width="device-width, initial-scale=1.0">
+        <title>DEMO</title>
+        <style>
+                *{
+                        padding: 0px;
+                        margin: 0px auto;
+                }
+                .wrapper{
+                        width: 960px;
+                        border: 1px solid blue;
+                }
+                header{
+                        width: 959.6px;
+                        height: 150px;
+                        background-color: aqua;
+                }
+                footer{
+                        width: 959.6px;
+                        height: 100px;
+                        background-color: aqua;
+                }
+                .content{
+                        width: 959.6px;
+                        height: 450px;
+                }
+                section{
+                        width: 60%;
+                        height:450px;
+                        float: left;
+                }
+                aside{
+                        width: 39.6%;
+                        height:450px;
+                        background-color: rgb(235, 247, 244);
+                        float: left;
+                }
+                article h3{
+                        text-align: center;
+                        color: rgb(211, 139, 30);
+                        margin: 10px;
+                }
+                section article img{
+                        height: 229px;
+                        width: 575.6px;
+                } 
+                .lbl{
+                        height: 300px;
+                        float: left;
+                        width: 200px;
+                        margin-left: 20px;
+                }
+                .inp{
+                        height: 300px;
+                        float: left;
+                        width: 200px;
+                }
+                .cls{
+                        clear:both;
+                }
+        </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header></header>
+        <div class="cls"></div>
+        <div class="content">
+                <section>
+                        <article>
+                                <!-- article định dạng nd trang web  -->
+                                <h3>DE MO TH TUAN5</h3>
+                        </article>
+                        <article>
+                                <img src="../img/1.jpg" alt="" srcset="">
+                        </article>
+                        <article>
+                                <form action="" method="get">
+                                        <!-- form tạo ra 1 form nhập liệu -->
+                                        <h4 style="text-align:center; margin-top: 10px; margin-bottom: 5px;">THONG TIN</h4>
+                                        <div class="lbl">
+                                                <!-- lable định nghĩa 1 nhãn cho 1 phần tử form -->
+                                                <label for="">Ma sinh vien:</label><br><br>
+                                                <label for="">Ho Ten:</label><br><br>
+                                                <label for="">Ngay sinh</label><br><br>
+                                                <label for="">Que quan</label><br><br>
+                                                <label for="">Gioi tinh</label>
+                                        </div>
+                                        <div class="inp">
+                                                <!-- input tạo ra 1 ô nhập liệu -->
+                                                <input type="text" name="txtMa" id="txtMa"><br><br>
+                                                <input type="text" name="txtHT" id="txtHT"><br><br>
+                                                <input type="date" name="txtdate" id="txtdate"><br><br>
+                                                <select name="slQQ" id="slQQ">
+                                                        <!-- select tạo ra 1 danh sách chọn -->
+                                                        <option value="Tien Giang">
+                                                                <!-- option tạo ra 1 ds chọn -->
+                                                                Tien Giang
+                                                        </option>
+                                                        <option value="Long An">
+                                                                Long An
+                                                        </option>
+                                                        <option value="Ho Chi Minh">
+                                                                TP.HCM
+                                                        </option>
+                                                </select><br><br>
+                                                <input type="radio" name="gt" id="ckbNam"><label>Nam</label>
+                                                <input type="radio" name="gt" id="ckbNu"><label>Nu</label><br>
+                                        </div>
+                                        <div class="cls"></div>
+                                        <center>
+                                                <button type="submit">Dang ky</button>
+                                                <button type="reset">Huy</button>
+                                        </center>
+                                </form>
+                        </article>
+                </section>
+                <aside>
+
+                </aside>
+        </div>
+        <div class="cls"></div>
+        <footer></footer>
+    </div>
+</body>
+</html>
